@@ -5,7 +5,7 @@ import { HeroContent } from "./HeroContent";
 import { HeroFloating } from "./HeroFloating";
 
 import { HeroIngredients } from "./HeroIngredients";
-import { DesktopHeroImage, MobileHeroImage } from "./HeroImage";
+import { DesktopHeroImage } from "./HeroImage";
 
 export function MobileHero() {
     return (

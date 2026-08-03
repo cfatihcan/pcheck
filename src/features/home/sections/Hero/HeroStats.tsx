@@ -13,7 +13,7 @@ export function HeroStats() {
       }}
       className="mt-10 grid grid-cols-3 gap-3"
     >
-      {HeroData.stats.map((item, index) => (
+      {HeroData.stats.map((item) => (
         <motion.div
           key={item.label}
           whileHover={{

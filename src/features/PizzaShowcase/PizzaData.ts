@@ -1,4 +1,4 @@
-import { HeroPizza } from "@/assets/images/hero";
+
 
 import type { PizzaItem } from "./PizzaTypes";
 import { CitirTavukPizza, KarisikPizza, KavurmaliPizza, MargaritaPizza } from "@/assets/images/pizza";

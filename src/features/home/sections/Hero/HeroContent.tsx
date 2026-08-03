@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 
 import { HeroData } from "./HeroData";
 import type { HeroContentProps } from "./HeroTypes";
-import { HeroActions } from "./HeroActions";
-import { HeroStats } from "./HeroStats";
 
 export function HeroContent({
   align = "left",
