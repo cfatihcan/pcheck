@@ -1,0 +1,35 @@
+:root {
+
+  /* Container */
+
+  --container-width: 1440px;
+
+  /* Radius */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadow */
+
+  --shadow-sm: 0 2px 8px rgb(0 0 0 / .05);
+
+  --shadow-md: 0 8px 24px rgb(0 0 0 / .08);
+
+  --shadow-lg: 0 16px 48px rgb(0 0 0 / .12);
+
+  /* Navbar */
+
+  --navbar-height: 96px;
+
+  /* Transition */
+
+  --transition-fast: 150ms ease;
+
+  --transition-normal: 300ms ease;
+
+  --transition-slow: 500ms ease;
+
+}
