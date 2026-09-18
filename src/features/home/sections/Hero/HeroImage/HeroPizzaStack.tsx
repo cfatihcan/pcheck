@@ -108,7 +108,7 @@ export function HeroPizzaStack({
             radiusY={radiusY}
           />
         );
-      })}
+      })} 
     </div>
   );
 }
