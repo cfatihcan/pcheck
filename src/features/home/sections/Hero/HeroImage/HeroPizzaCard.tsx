@@ -11,7 +11,7 @@ type Props = {
 };
 
 export function HeroPizzaCard({
-  //src,
+  src,
   active,
   offset,
   pizzaSize,
@@ -30,7 +30,7 @@ export function HeroPizzaCard({
 
   return (
     <motion.img
-      //src={src}
+      src={src}
       draggable={false}
       className="
         absolute
