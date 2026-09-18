@@ -11,7 +11,7 @@ type Props = {
 };
 
 export function HeroPizzaCard({
-  src,
+  //src,
   active,
   offset,
   pizzaSize,
