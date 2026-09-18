@@ -12,7 +12,7 @@ export const HeroData = {
   description:
     "Güçlü malzeme seçimi ve mahalle sıcaklığını bir araya getiren en sevilen pizza seçeneklerimizi keşfedin.",
 
-  primaryButton: "Online Sipariş Ver",
+  // primaryButton: "Online Sipariş Ver",
 
   secondaryButton: "Menüyü İncele",
 

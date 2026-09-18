@@ -134,21 +134,21 @@ export function MobileDrawer({ navbar }: Props) {
                 variants={itemVariants}
                 className="border-t border-zinc-200 p-6"
               >
-                <button
+                {/* <button
                   type="button"
                   className="w-full rounded-2xl bg-red-600 py-4 font-semibold text-white transition-all duration-300 hover:scale-[1.02] hover:bg-red-700"
                 >
                   Online Sipariş Ver
-                </button>
+                </button> */}
 
-                <motion.div
+                {/* <motion.div
                   variants={itemVariants}
                   className="mt-6 flex justify-center gap-8 text-sm text-zinc-500"
                 >
                   <span>Instagram</span>
                   <span>Facebook</span>
                   <span>WhatsApp</span>
-                </motion.div>
+                </motion.div> */}
               </motion.div>
             </div>
           </motion.div>

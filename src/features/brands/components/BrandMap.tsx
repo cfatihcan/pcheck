@@ -2,119 +2,18 @@ import { useEffect } from "react";
 
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import {
-    MapContainer,
-    Marker,
-    Popup,
-    TileLayer,
-    useMap,
-} from "react-leaflet";
 
-import { brands } from "../data/BrandData";
 
-import marker2x from "leaflet/dist/images/marker-icon-2x.png";
-import marker from "leaflet/dist/images/marker-icon.png";
-import shadow from "leaflet/dist/images/marker-shadow.png";
-import { createBrandMarker } from "./BrandMarker";
-
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: marker2x,
-    iconUrl: marker,
-    shadowUrl: shadow,
-});
-
-type Props = {
-    selectedBrandId: number;
-};
-
-function FlyToBrand({ selectedBrandId }: Props) {
-  const map = useMap();
-
-  useEffect(() => {
-    const brand = brands.find(
-      (x) => x.id === selectedBrandId
-    );
-
-    if (!brand) return;
-
-    map.flyTo(
-      [brand.latitude, brand.longitude],
-      14,
-      {
-        duration: 1.2,
-        animate: true,
-      }
-    );
-  }, [selectedBrandId, map]);
-
-  return null;
-}
-
-export function BrandMap({
-    selectedBrandId,
-}: Props) {
-    const center = [
-        brands[0].latitude,
-        brands[0].longitude,
-    ] as [number, number];
-
-    return (
-        <div
-            className="
-        overflow-hidden
-        rounded-3xl
-        shadow-xl
-      "
-        >
-            <MapContainer
-                center={center}
-                zoom={12}
-                scrollWheelZoom={false}
-                className="h-[650px] w-full"
-            >
-                <TileLayer
-                    attribution="© OpenStreetMap"
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-
-                 <FlyToBrand
-                    selectedBrandId={selectedBrandId}
-                /> 
-
-                {brands.map((brand) => (
-                    <Marker
-                        key={brand.id}
-                        icon={createBrandMarker({
-                            selected:
-                                brand.id === selectedBrandId,
-                        })}
-                        position={[
-                            brand.latitude,
-                            brand.longitude,
-                        ]}
-                    >
-                        <Popup>
-                            <div className="space-y-2">
-
-                                <h3 className="font-bold">
-                                    {brand.name}
-                                </h3>
-
-                                <p className="text-sm">
-                                    {brand.address}
-                                </p>
-
-                                <p className="text-sm font-medium text-red-600">
-                                    {brand.phone}
-                                </p>
-
-                            </div>
-                        </Popup>
-                    </Marker>
-                ))}
-            </MapContainer>
-        </div>
-    );
+export function BrandMap() {
+  return (
+    <div className="w-full overflow-hidden shadow-xl">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.583678044092!2d27.106923!3d38.4741717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd90020281fe9%3A0xd59e9c768218107d!2sNew%20Napoli%20Pizza%20Kar%C5%9F%C4%B1yaka!5e0!3m2!1str!2str!4v1789713678930!5m2!1str!2str"
+        className="block h-[600px] w-full border-0"
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="strict-origin-when-cross-origin"
+      />
+    </div>
+  );
 }

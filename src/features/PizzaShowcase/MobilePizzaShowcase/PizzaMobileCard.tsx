@@ -201,7 +201,7 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
 "
                 >
                     <div
-  className="
+                        className="
     pointer-events-none
 
     absolute
@@ -216,7 +216,7 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
     via-white/40
     to-transparent
   "
-/>
+                    />
                     {/* Rating */}
 
                     <div className="flex items-center justify-center gap-2">
@@ -359,7 +359,7 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
 
                     {/* Button */}
 
-                    <motion.button
+                    {/* <motion.button
                         whileTap={{
                             scale: .97,
                         }}
@@ -381,7 +381,7 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
     "
                     >
                         🛒 Online Sipariş Ver
-                    </motion.button>
+                    </motion.button> */}
 
                 </motion.div>
 

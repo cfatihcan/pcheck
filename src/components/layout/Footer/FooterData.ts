@@ -7,17 +7,11 @@ export const FooterData = {
       title: "Anasayfa",
       href: "/",
     },
+
+
     {
-      title: "Menü",
-      href: "/menu",
-    },
-    {
-      title: "Kampanyalar",
-      href: "/campaigns",
-    },
-    {
-      title: "Şubeler",
-      href: "/branches",
+      title: "Bekleriz",
+      target: "brands",
     },
     {
       title: "Hakkımızda",
@@ -30,8 +24,8 @@ export const FooterData = {
   ],
 
   contact: {
-    phone: "0850 555 55 55",
-    email: "info@napolipizza.com",
+    phone: "0232 372 52 52",
+    email: "suatyalcin@gmail.com",
     address: "İzmir / Türkiye",
   },
 };

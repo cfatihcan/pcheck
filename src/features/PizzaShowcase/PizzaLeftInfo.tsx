@@ -48,12 +48,12 @@ export function PizzaLeftInfo({ active }: Props) {
             duration: 0.35,
           }}
         >
-          <PizzaInfoCard
+          {/* <PizzaInfoCard
             icon="🔥"
             title="Kalori"
             value={`${pizza.calories}`}
             delay={0}
-          />
+          /> */}
         </motion.div>
 
         <motion.div

@@ -3,9 +3,9 @@ import { Button } from "@/components/ui";
 export function NavbarActions() {
   return (
     <div className="hidden lg:block">
-      <Button size="md">
+      {/* <Button size="md">
         Online Sipariş
-      </Button>
+      </Button> */}
     </div>
   );
 }

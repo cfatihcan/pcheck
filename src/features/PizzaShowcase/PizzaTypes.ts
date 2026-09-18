@@ -4,6 +4,7 @@ export type PizzaItem = {
   image: string;
 
   price: number;
+  pricedelivery: number;
   rating: number;
 
   calories: number;

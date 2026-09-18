@@ -1,63 +1,40 @@
 import { motion } from "framer-motion";
-
 export function BrandHeader() {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-        y: 40,
-      }}
-      whileInView={{
-        opacity: 1,
-        y: 0,
-      }}
-      viewport={{
-        once: true,
-        amount: .3,
-      }}
-      transition={{
-        duration: .6,
-      }}
-      className="mb-16 text-center"
-    >
-      <span
-        className="
-          inline-flex
-          rounded-full
-          bg-red-100
-          px-5
-          py-2
-          text-sm
-          font-semibold
-          text-red-600
-        "
-      >
-        📍 Şubelerimiz
-      </span>
+    <div className="flex items-center justify-center">
+<motion.a
+  href="https://maps.app.goo.gl/qGe81oqeAct1UNjq9"
+  target="_blank"
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.04 }}
+  whileTap={{ scale: 0.96 }}
+  className="
+    inline-flex
+    items-center
+    gap-2
+    rounded-full
+    border
+    border-zinc-200
+    bg-white
+    px-6
+    py-3
+    text-sm
+    font-semibold
+    text-zinc-800
+    shadow-md
+    transition-all
+    duration-300
+    hover:border-red-200
+    hover:bg-red-50
+    hover:text-red-600
+  "
+>
+  <span className="text-base">
+    📍
+  </span>
 
-      <h2
-        className="
-          mt-6
-          text-5xl
-          font-black
-        "
-      >
-        Size En Yakın Napoli Pizza
-      </h2>
-
-      <p
-        className="
-          mx-auto
-          mt-5
-          max-w-2xl
-          text-lg
-          leading-8
-          text-zinc-500
-        "
-      >
-        Tüm şubelerimizi keşfedin, konumlarını harita
-        üzerinden görüntüleyin ve tek tıkla yol tarifi alın.
-      </p>
-    </motion.div>
+  Yol Tarifi Al
+</motion.a>
+    </div>
   );
 }

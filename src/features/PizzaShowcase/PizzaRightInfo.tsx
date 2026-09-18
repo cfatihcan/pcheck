@@ -34,57 +34,107 @@ export function PizzaRightInfo({ active }: Props) {
         }}
       >
         {/* Price Card */}
-        <motion.div
-          whileHover={{
-            scale: 1.02,
-            y: -4,
-          }}
-          transition={{
-            type: "spring",
-            stiffness: 220,
-            damping: 18,
-          }}
-className="
-inline-block
+{/* Price Cards */}
+<div className="flex flex-wrap items-stretch gap-4">
 
-rounded-3xl
+  {/* Gel Al */}
+  <motion.div
+    whileHover={{
+      scale: 1.02,
+      y: -4,
+    }}
+    transition={{
+      type: "spring",
+      stiffness: 220,
+      damping: 18,
+    }}
+    className="
+      inline-block
+      rounded-3xl
+      bg-gradient-to-r
+      from-red-600
+      via-red-500
+      to-orange-500
+      px-8
+      py-6
+      text-white
+      shadow-2xl
+    "
+  >
+    <div className="text-sm opacity-80">
+      Gel Al 
+    </div>
 
-bg-gradient-to-r
-from-red-600
-via-red-500
-to-orange-500
+    <div className="mt-1 text-5xl font-black tracking-tight">
+      ₺{pizza.price}
+    </div>
 
-px-8
-py-6
+    <div
+      className="
+        mt-4
+        inline-flex
+        rounded-full
+        bg-white/20
+        px-3
+        py-1
+        text-xs
+        font-semibold
+        backdrop-blur
+      "
+    >
+      🔥 Gel Al
+    </div>
+  </motion.div>
 
-text-white
-shadow-2xl
-"
-        >
-          <div className="text-sm opacity-80">
-            Başlangıç Fiyatı
-          </div>
+  {/* Paket / Teslimat */}
+  <motion.div
+    whileHover={{
+      scale: 1.02,
+      y: -4,
+    }}
+    transition={{
+      type: "spring",
+      stiffness: 220,
+      damping: 18,
+    }}
+    className="
+      inline-block
+      rounded-3xl
+      border
+      border-red-100
+      bg-white
+      px-7
+      py-6
+      text-zinc-900
+      shadow-xl
+    "
+  >
+    <div className="text-sm font-medium text-zinc-500">
+      Paket / Teslimat
+    </div>
 
-          <div className="mt text-5xl font-black tracking-tight">
-            ₺{pizza.price}
-          </div>
+    <div className="mt-1 text-4xl font-black tracking-tight text-red-600">
+      ₺{pizza.pricedelivery}
+    </div>
 
-          <div
-            className="
-              mt-4
-              inline-flex
-              rounded-full
-              bg-white/20
-              px-3
-              py-1
-              text-xs
-              font-semibold
-              backdrop-blur
-            "
-          >
-            🔥 Online Siparişe Özel
-          </div>
-        </motion.div>
+    <div
+      className="
+        mt-4
+        inline-flex
+        rounded-full
+        bg-red-50
+        px-3
+        py-1
+        text-xs
+        font-bold
+        text-red-600
+      "
+    >
+      🛵 Ara Gelsin
+    </div>
+  </motion.div>
+
+</div>
 
         {/* Rating */}
         <div className="mt-8 flex items-center gap-3">
@@ -151,7 +201,7 @@ shadow-2xl
         </div>
 
         {/* Button */}
-        <motion.button
+        {/* <motion.button
           whileHover={{
             scale: 1.03,
           }}
@@ -173,7 +223,7 @@ shadow-2xl
           "
         >
           🛒 Online Sipariş Ver
-        </motion.button>
+        </motion.button> */}
       </motion.div>
     </AnimatePresence>
   );

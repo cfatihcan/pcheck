@@ -21,19 +21,14 @@ export function FooterBrand() {
 
         <div>
           <h3 className="text-2xl font-black text-white">
-            Napoli Pizza
+            New Napoli Pizza Karşıyaka
           </h3>
 
-          <p className="text-sm text-zinc-400">
-            Wood Fired Pizza
-          </p>
+        
         </div>
       </div>
 
-      <p className="max-w-sm leading-7 text-zinc-400">
-        Gerçek Napoli lezzetini odun ateşinde pişiriyor,
-        sıcak ve taptaze şekilde sofranıza ulaştırıyoruz.
-      </p>
+ 
     </div>
   );
 }

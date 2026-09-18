@@ -47,7 +47,6 @@ export function DesktopHero() {
 
     
 
-          {/* Yazılar */}
           <div className="relative z-20 -mt-12">
             <HeroContent align="center" />
           </div>

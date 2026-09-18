@@ -84,36 +84,10 @@ export function Footer() {
           {/* Başlık */}
           <div className="mb-16 text-center">
 
-            <span
-              className="
-                inline-flex
-                rounded-full
-                bg-red-600/10
-                px-5
-                py-2
-                text-sm
-                font-semibold
-                text-red-500
-              "
-            >
-              🍕 Napoli Pizza
-            </span>
+ 
 
-            <h2
-              className="
-                mt-6
-                text-4xl
-                font-black
-                text-white
-              "
-            >
-              Lezzetin Son Durağı
-            </h2>
 
-            <p className="mx-auto mt-4 max-w-xl text-zinc-400">
-              Odun ateşinde pişen gerçek Napoli pizzalarıyla her lokmada
-              unutulmaz bir lezzet deneyimi sunuyoruz.
-            </p>
+    
 
           </div>
 
@@ -126,7 +100,7 @@ export function Footer() {
             "
           >
             <FooterBrand />
-            <FooterLinks />
+            {/* <FooterLinks /> */}
             <FooterContact />
             <FooterSocial />
           </div>

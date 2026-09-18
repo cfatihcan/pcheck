@@ -15,7 +15,7 @@ export const navbarItems: NavbarItem[] = [
   //   href: "/campaigns",
   // },
   {
-    label: "Şubeler",
+    label: "Bekleriz",
     target: "brands",
   },
   // {

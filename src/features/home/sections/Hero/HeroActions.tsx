@@ -19,7 +19,7 @@ export function HeroActions() {
       className="mt-8 flex flex-col gap-4"
     >
       {/* Primary */}
-      <motion.button
+      {/* <motion.button
         whileHover={{
           scale: 1.03,
           y: -2,
@@ -51,7 +51,7 @@ export function HeroActions() {
         >
           <ArrowRight size={18} />
         </motion.div>
-      </motion.button>
+      </motion.button> */}
 
       {/* Secondary */}
       <motion.button

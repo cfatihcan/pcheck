@@ -9,19 +9,16 @@ export function FooterLinks() {
             </h4>
 
  <ul className="space-y-2">
-  {FooterData.links.map((item) => (
-    <li key={item.href}>
-      <Link
-        to={item.href}
-        className="text-white" 
-          style={{ color: "#fff" }}
-      >
-
-
-        <span>{item.title}</span>
-      </Link>
-    </li>
-  ))}
+{FooterData.links.map((item) => (
+  <li key={item.target}>
+    <Link
+      to={`#${item.target}`}
+      className="text-white"
+    >
+      <span>{item.title}</span>
+    </Link>
+  </li>
+))}
 </ul>
         </div>
     );

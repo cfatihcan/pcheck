@@ -1,7 +1,7 @@
 
 
 import type { PizzaItem } from "./PizzaTypes";
-import { CitirTavukPizza, KarisikPizza, KavurmaliPizza, MargaritaPizza } from "@/assets/images/pizza";
+import { CitirTavukPizza, DeluxPizza, KarisikPizza, KavurmaliPizza, MargaritaPizza, MexicoPizza, MezzalunaPizza, PastirmaSucukPizza, SucukluPizza, SuperPizza, TonBalikPizza, VejeteryanPizza } from "@/assets/images/pizza";
 
 export const pizzas: PizzaItem[] = [
   {
@@ -11,7 +11,9 @@ export const pizzas: PizzaItem[] = [
 
     image: CitirTavukPizza,
 
-    price: 390,
+    price: 150,
+
+    pricedelivery: 170,
 
     rating: 4.9,
 
@@ -38,7 +40,9 @@ export const pizzas: PizzaItem[] = [
 
     image: KarisikPizza,
 
-    price: 390,
+    price: 150,
+
+    pricedelivery: 170,
 
     rating: 4.9,
 
@@ -64,8 +68,8 @@ export const pizzas: PizzaItem[] = [
 
     image: KavurmaliPizza,
 
-    price: 390,
-
+    price: 150,
+    pricedelivery: 170,
     rating: 4.9,
 
     calories: 420,
@@ -75,7 +79,7 @@ export const pizzas: PizzaItem[] = [
     duration: "15 dk",
 
     description:
-      "Odun ateşinde pişen gerçek Napoli tarifi. Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+      " Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
 
     ingredients: [
       "Mozzarella",
@@ -90,7 +94,8 @@ export const pizzas: PizzaItem[] = [
 
     image: MargaritaPizza,
 
-    price: 390,
+    price: 150,
+    pricedelivery: 170,
 
     rating: 4.9,
 
@@ -109,4 +114,221 @@ export const pizzas: PizzaItem[] = [
       "Fesleğen",
     ],
   },  
+   {
+    id: 5,
+
+    name: "Mexico",
+
+    image: MexicoPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  },   
+  
+  {
+    id: 6,
+
+    name: "Mezzaluna",
+
+    image: MezzalunaPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  }, 
+    {
+    id: 7,
+
+    name: "Pastırma Sucuk",
+
+    image: PastirmaSucukPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  }, 
+    {
+    id: 8,
+
+    name: "Sucuk Pizza",
+
+    image: SucukluPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  },   
+    {
+    id: 8,
+
+    name: "Süper Pizza",
+
+    image: SuperPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  },    
+   {
+    id: 9,
+
+    name: "Ton Balıklı",
+
+    image: TonBalikPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  },  
+   {
+    id: 10,
+
+    name: "Vejeteryan",
+
+    image: VejeteryanPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  },      
+   {
+    id: 11,
+
+    name: "Deluxe",
+
+    image: DeluxPizza,
+
+    price: 150,
+    pricedelivery: 170,
+
+    rating: 4.9,
+
+    calories: 420,
+
+    size: "25 cm",
+
+    duration: "15 dk",
+
+    description:
+      "Taze mozzarella, domates sosu ve fesleğen ile hazırlanır.",
+
+    ingredients: [
+      "Mozzarella",
+      "Domates",
+      "Fesleğen",
+    ],
+  },     
 ];
