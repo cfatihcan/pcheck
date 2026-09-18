@@ -1,20 +1,8 @@
-import { motion } from "framer-motion";
-
 export function HeroBackground() {
   return (
-    <div className="absolute inset-0 -z-10 overflow-hidden">
-
+    <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
       {/* Ana Glow */}
-      <motion.div
-        animate={{
-          scale: [1, 1.15, 1],
-          opacity: [0.35, 0.55, 0.35],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
+      <div
         className="
           absolute
           left-1/2
@@ -24,21 +12,13 @@ export function HeroBackground() {
           -translate-x-1/2
           rounded-full
           bg-orange-300/40
-          blur-[90px]
+          blur-[60px]
+          animate-pulse
         "
       />
 
       {/* Sol Blob */}
-      <motion.div
-        animate={{
-          x: [-20, 20, -20],
-          y: [0, 20, 0],
-        }}
-        transition={{
-          duration: 12,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
+      <div
         className="
           absolute
           -left-24
@@ -47,21 +27,12 @@ export function HeroBackground() {
           w-56
           rounded-full
           bg-red-300/20
-          blur-[120px]
+          blur-[80px]
         "
       />
 
       {/* Sağ Blob */}
-      <motion.div
-        animate={{
-          x: [20, -20, 20],
-          y: [0, -20, 0],
-        }}
-        transition={{
-          duration: 14,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
+      <div
         className="
           absolute
           -right-24
@@ -70,7 +41,7 @@ export function HeroBackground() {
           w-64
           rounded-full
           bg-yellow-300/20
-          blur-[120px]
+          blur-[80px]
         "
       />
     </div>
