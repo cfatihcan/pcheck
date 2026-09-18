@@ -19,10 +19,10 @@ export function DesktopNavbar({ navbar }: Props) {
         "fixed inset-x-0 top-0 z-50 hidden lg:block",
         "transition-all duration-300",
 
-        navbar.isScrolled
-          ? "border-b border-black/5 bg-white/80 shadow-sm backdrop-blur-xl"
-          : "bg-transparent",
-      ].join(" ")}
+    navbar.isScrolled
+      ? "border-b border-black/5 bg-white/95 shadow-sm"
+      : "bg-transparent",
+  ].join(" ")}
     >
       <Container>
         <div className="grid h-24 grid-cols-[220px_1fr_340px] items-center">

@@ -22,7 +22,7 @@ export function MobileNavbar({ navbar }: Props) {
         "fixed inset-x-0 top-0 z-50 lg:hidden",
         "transition-all duration-300",
         navbar.isScrolled
-          ? "border-b border-black/5 bg-white/90 shadow-sm backdrop-blur-xl"
+          ? "border-b border-black/5 bg-white/95 shadow-sm"
           : "bg-white",
       ].join(" ")}
     >
