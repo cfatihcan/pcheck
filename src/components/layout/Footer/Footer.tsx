@@ -1,7 +1,7 @@
 import { Container } from "@/components/ui";
 
 import { FooterBrand } from "./FooterBrand";
-import { FooterLinks } from "./FooterLinks";
+
 import { FooterContact } from "./FooterContact";
 import { FooterSocial } from "./FooterSocial";
 import { FooterBottom } from "./FooterBottom";

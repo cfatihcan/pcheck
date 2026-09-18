@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 
 import { Container } from "@/components/ui";
 
@@ -8,8 +8,7 @@ import { BrandMobileCard } from "./BrandMobileCard";
 
 
 export function MobileBrands() {
-  const [selectedBrandId, setSelectedBrandId] =
-    useState(1);
+
 
   return (
     <section
@@ -22,8 +21,7 @@ export function MobileBrands() {
                 <div className="mt-8">
 
           <BrandMobileCard
-            selectedBrandId={selectedBrandId}
-            onSelect={setSelectedBrandId}
+
           />
 
         </div>
@@ -31,7 +29,7 @@ export function MobileBrands() {
         <div className="mt-8">
 
            <BrandMap
-            selectedBrandId={selectedBrandId}
+         
           /> 
 
         </div>
