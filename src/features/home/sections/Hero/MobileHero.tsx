@@ -5,6 +5,7 @@ import { HeroContent } from "./HeroContent";
 //import { HeroBackground } from "./HeroBackground";
 //import { HeroFloating } from "./HeroFloating";
 import { HeroIngredients } from "./HeroIngredients";
+import { DesktopHeroImage } from "./HeroImage";
 //import { HeroFloating } from "./HeroFloating";
 
 //import { HeroIngredients } from "./HeroIngredients";
@@ -37,7 +38,7 @@ export function MobileHero() {
     justify-center
   "
           >
-            {/* <DesktopHeroImage /> */}
+             <DesktopHeroImage />  
           </div>
 
                     {/* İçerik */}
