@@ -2,7 +2,8 @@ import { Container } from "@/components/ui";
 
 //import { HeroBackground } from "./HeroBackground";
 import { HeroContent } from "./HeroContent";
-import { HeroBackground } from "./HeroBackground";
+//import { HeroBackground } from "./HeroBackground";
+import { HeroFloating } from "./HeroFloating";
 //import { HeroFloating } from "./HeroFloating";
 
 //import { HeroIngredients } from "./HeroIngredients";
@@ -18,8 +19,8 @@ export function MobileHero() {
         pb-12
       "
         >
-             <HeroBackground /> 
-            {/* <HeroFloating /> */}
+             {/* <HeroBackground />  */}
+            <HeroFloating /> 
             {/* <HeroIngredients /> */}
             <Container>
                 <div className="flex flex-col items-center -mt-30">
