@@ -1,4 +1,4 @@
-import HeroPizza from "./hero.png";
+import HeroPizza from "./hero.webp";
 import NapoliLogo from "./logonew.png";
 
 export {
