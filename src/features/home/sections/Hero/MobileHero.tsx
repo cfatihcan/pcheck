@@ -2,6 +2,7 @@ import { Container } from "@/components/ui";
 
 //import { HeroBackground } from "./HeroBackground";
 import { HeroContent } from "./HeroContent";
+import { HeroBackground } from "./HeroBackground";
 //import { HeroFloating } from "./HeroFloating";
 
 //import { HeroIngredients } from "./HeroIngredients";
@@ -17,7 +18,7 @@ export function MobileHero() {
         pb-12
       "
         >
-            {/* <HeroBackground /> */}
+             <HeroBackground /> 
             {/* <HeroFloating /> */}
             {/* <HeroIngredients /> */}
             <Container>
