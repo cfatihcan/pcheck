@@ -245,42 +245,35 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
                         {pizza.name}
                     </h2>
 
-                    {/* Price */}
+                    
 
                     {/* Price */}
 
-                    <div className="mt-6 text-center">
+<div className="mt-6 flex justify-center gap-8 text-center">
 
-                        <span
-                            className="
-      inline-flex
-      items-center
-      rounded-full
-      bg-red-50
-      px-4
-      py-1
+    <div>
+        <div className="text-xs font-semibold text-red-600">
+            🔥 Gel Al
+        </div>
 
-      text-xs
-      font-semibold
-      text-red-600
-    "
-                        >
-                            🔥 Online Siparişe Özel
-                        </span>
+        <div className="mt-2 text-4xl font-black text-red-600">
+            ₺{pizza.price}
+        </div>
+    </div>
 
-                        <div
-                            className="
-      mt-3
-      text-6xl
-      font-black
-      tracking-tight
-      text-red-600
-    "
-                        >
-                            ₺{pizza.price}
-                        </div>
+    <div className="w-px bg-zinc-200" />
 
-                    </div>
+    <div>
+        <div className="text-xs font-semibold text-zinc-500">
+            🛵 Paket Teslimat
+        </div>
+
+        <div className="mt-2 text-4xl font-black text-zinc-700">
+            ₺{pizza.pricedelivery}
+        </div>
+    </div>
+
+</div>
 
                     {/* Stats */}
 
@@ -293,11 +286,11 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
     "
                     >
 
-                        <StatCard
+                        {/* <StatCard
                             icon="🔥"
                             value={pizza.calories}
                             title="Kalori"
-                        />
+                        /> */}
 
                         <StatCard
                             icon="🍕"
