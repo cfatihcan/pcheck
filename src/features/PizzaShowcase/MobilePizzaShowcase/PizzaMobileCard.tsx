@@ -219,7 +219,7 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
                     />
                     {/* Rating */}
 
-                    <div className="flex items-center justify-center gap-2">
+                    {/* <div className="flex items-center justify-center gap-2">
 
                         <div className="text-amber-400 text-lg">
                             ⭐⭐⭐⭐⭐
@@ -229,7 +229,7 @@ shadow-[0_18px_45px_rgba(15,23,42,.10)]
                             {pizza.rating}
                         </div>
 
-                    </div>
+                    </div> */}
 
                     {/* Pizza Name */}
 
