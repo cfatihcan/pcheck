@@ -58,7 +58,7 @@ export const pizzas: PizzaItem[] = [
     duration: "15 dk",
 
     description:
-      "Acı sevenler için özel olarak hazırlanan Mexico pizza, jalapeño biberi, mısır, kırmızı közlenmiş biber, mantar ve sucuk gibi malzemelerle hazırlanır.",
+      "Acı sevenler için özel olarak hazırlanan Mexico pizza, jalapeño biberi, mısır, kırmızı közlenmiş biber, mantar ve sucuk ile hazırlanır.",
 
     ingredients: [
       "pizza sosu",
