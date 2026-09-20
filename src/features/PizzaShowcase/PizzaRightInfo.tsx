@@ -137,7 +137,7 @@ export function PizzaRightInfo({ active }: Props) {
 </div>
 
         {/* Rating */}
-        <div className="mt-8 flex items-center gap-3">
+        {/* <div className="mt-8 flex items-center gap-3">
           <div className="text-xl text-amber-400">
             ⭐⭐⭐⭐⭐
           </div>
@@ -145,7 +145,7 @@ export function PizzaRightInfo({ active }: Props) {
           <div className="font-semibold text-zinc-700">
             {pizza.rating}
           </div>
-        </div>
+        </div> */}
 
         {/* Name */}
         <h2

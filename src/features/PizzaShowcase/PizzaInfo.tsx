@@ -56,7 +56,7 @@ export function PizzaInfo({ active }: Props) {
         </div>
 
         {/* Rating */}
-        <div
+        {/* <div
           className="
             mt-4
             flex
@@ -70,7 +70,7 @@ export function PizzaInfo({ active }: Props) {
           <span className="ml-2 text-base text-zinc-500">
             {pizza.rating}
           </span>
-        </div>
+        </div> */}
 
         {/* Açıklama */}
         <p

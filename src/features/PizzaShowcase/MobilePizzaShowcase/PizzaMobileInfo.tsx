@@ -33,7 +33,7 @@ export function PizzaMobileInfo({ active }: Props) {
         className="mt-8"
       >
         {/* Rating */}
-        <div className="flex items-center justify-center gap-2">
+        {/* <div className="flex items-center justify-center gap-2">
           <span className="text-amber-400 text-lg">
             ⭐⭐⭐⭐⭐
           </span>
@@ -41,7 +41,7 @@ export function PizzaMobileInfo({ active }: Props) {
           <span className="font-semibold text-zinc-700">
             {pizza.rating}
           </span>
-        </div>
+        </div> */}
 
         {/* Name */}
         <h2 className="mt-5 text-center text-3xl font-black">
