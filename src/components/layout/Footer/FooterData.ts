@@ -26,6 +26,6 @@ export const FooterData = {
   contact: {
     phone: "0232 372 52 52",
     email: "suatyalcin@gmail.com",
-    address: "İzmir / Türkiye",
+    address: "1595 Sokak 162/F Karşıyaka / İzmir",
   },
 };
