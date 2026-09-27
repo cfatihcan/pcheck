@@ -1,15 +1,11 @@
 import { Container } from "@/components/ui";
 
-//import { HeroBackground } from "./HeroBackground";
-import { HeroContent } from "./HeroContent";
-//import { HeroBackground } from "./HeroBackground";
-//import { HeroFloating } from "./HeroFloating";
-import { HeroIngredients } from "./HeroIngredients";
-import { DesktopHeroImage } from "./HeroImage";
-//import { HeroFloating } from "./HeroFloating";
 
-//import { HeroIngredients } from "./HeroIngredients";
-//import { DesktopHeroImage } from "./HeroImage";
+import { HeroContent } from "./HeroContent";
+
+import { HeroIngredients } from "./HeroIngredients";
+import {  MobileHeroImage } from "./HeroImage";
+
 
 export function MobileHero() {
     return (
@@ -38,7 +34,7 @@ export function MobileHero() {
     justify-center
   "
           >
-             <DesktopHeroImage />  
+             <MobileHeroImage />  
           </div>
 
                     {/* İçerik */}

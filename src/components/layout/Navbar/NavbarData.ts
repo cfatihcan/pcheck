@@ -10,10 +10,10 @@ export const navbarItems: NavbarItem[] = [
     label: "Pizzalar",
     target: "pizza-menu",
   },
-  // {
-  //   label: "Kampanyalar",
-  //   href: "/campaigns",
-  // },
+  {
+     label: "Kampanyalar",
+     target: "campaign",
+   },
   {
     label: "Bekleriz",
     target: "brands",

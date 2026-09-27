@@ -1,8 +1,9 @@
-import { HeroScene } from "./HeroScene";
+
+import { MobileHeroScene } from "./MobileHeroScene";
 
 export function MobileHeroImage() {
   return (
-    <HeroScene
+    <MobileHeroScene
       pizzaSize={260}
       radiusX={120}
       radiusY={40}

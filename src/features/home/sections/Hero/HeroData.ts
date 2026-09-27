@@ -1,4 +1,4 @@
-import { HeroPizza } from "@/assets/images/hero";
+import { HeroPizza, ikiortaboy } from "@/assets/images/hero";
 import { CitirTavukPizza, DeluxPizza } from "@/assets/images/pizza";
 
 export const HeroData = {
@@ -50,5 +50,10 @@ export const HeroData = {
     image: DeluxPizza,
     title: "Margherita",
   },
+  {
+    id: 4,
+    image: ikiortaboy,
+    title: "Kampanya",
+  }  
 ]
 };

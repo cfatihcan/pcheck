@@ -25,6 +25,11 @@ const heroMessages = [
     title: "YENİ FAVORİSİ ❤️",
     description: "Sıcak, taze ve çıtır çıtır pizza keyfi.",
   },
+    {
+    eyebrow: "KAMPANYA",
+    title: "😍",
+    description: "Müthiş Seçim",
+  },  
 ];
 
 export function HeroPizzaStack({
