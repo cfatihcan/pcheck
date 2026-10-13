@@ -68,7 +68,7 @@ export function MenuItemCard({ item, index, fallbackIcon }: Props) {
       <div className="min-w-0 flex-1">
         <h3 className="text-base font-bold leading-tight">{item.name}</h3>
         {item.description && (
-          <p className="mt-1 line-clamp-2 text-xs capitalize leading-snug text-[var(--color-text-muted)]">
+          <p className="mt-1 text-xs capitalize leading-snug text-[var(--color-text-muted)]">
             {item.description}
           </p>
         )}
