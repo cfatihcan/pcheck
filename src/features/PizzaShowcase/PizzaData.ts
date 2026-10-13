@@ -289,8 +289,8 @@ export const pizzas: PizzaItem[] = [
 
     image: KavurmaliPizza,
 
-    price: 270,
-    pricedelivery: 290,
+    price: 300,
+    pricedelivery: 320,
 
     rating: 4.9,
 
@@ -320,8 +320,8 @@ export const pizzas: PizzaItem[] = [
 
     image: PastirmaSucukPizza,
 
-    price: 270,
-    pricedelivery: 290,
+    price: 300,
+    pricedelivery: 320,
 
     rating: 4.9,
 
@@ -351,8 +351,8 @@ export const pizzas: PizzaItem[] = [
 
     image: TonBalikPizza,
 
-    price: 270,
-    pricedelivery: 290,
+    price: 300,
+    pricedelivery: 320,
 
     rating: 4.9,
 
@@ -381,8 +381,8 @@ export const pizzas: PizzaItem[] = [
 
     image: CitirTavukPizza,
 
-    price: 270,
-    pricedelivery: 290,
+    price: 300,
+    pricedelivery: 320,
 
     rating: 4.9,
 

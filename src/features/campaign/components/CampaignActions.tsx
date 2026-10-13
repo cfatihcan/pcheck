@@ -38,8 +38,8 @@ const campaignData: Campaign[] = [
     image: ikiortaboy,
     description:
       "Açılışa özel 2 Orta Boy Pizza, Patates kızartması ve 1 Litre içecek fırsatından yararlan, avantajlı fiyatlarla lezzeti keşfetmeye başla.",
-    priceTakeaway: "450",
-    priceDelivery: "450",
+    priceTakeaway: "500",
+    priceDelivery: "520",
     // Buna badge eklemiyoruz, dolayısıyla etiket çıkmayacak
   },
 ];
