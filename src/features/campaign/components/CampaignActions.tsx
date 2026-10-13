@@ -24,12 +24,12 @@ const campaignData: Campaign[] = [
     image: SuperPizza,
     description:
       "Seçili Tüm Orta Boy Pizzalar Gel Al Fiyatları iştahınızı kabartıyor.",
-    priceTakeaway: "150",
-    priceDelivery: "170",
+    priceTakeaway: "170",
+    priceDelivery: "190",
     // 2. Sadece bu kampanyaya etiket verisini ekliyoruz
     badge: {
       title: "Açılışa Özel",
-      price: "150 ₺",
+      price: "170 ₺",
     },
   },
   {

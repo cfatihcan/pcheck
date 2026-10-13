@@ -12,9 +12,9 @@ export const pizzas: PizzaItem[] = [
 
     image: KarisikPizza,
 
-    price: 150,
+    price: 170,
 
-    pricedelivery: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -46,8 +46,8 @@ export const pizzas: PizzaItem[] = [
 
     image: MexicoPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -78,9 +78,9 @@ export const pizzas: PizzaItem[] = [
 
     image: BesiBiYerdePizza,
 
-    price: 150,
+    price: 170,
 
-    pricedelivery: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -112,8 +112,8 @@ export const pizzas: PizzaItem[] = [
 
     image: DeluxPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
     rating: 4.9,
 
     calories: 420,
@@ -141,8 +141,8 @@ export const pizzas: PizzaItem[] = [
 
     image: SucukluPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -170,8 +170,8 @@ export const pizzas: PizzaItem[] = [
 
     image: MargaritaPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -197,8 +197,8 @@ export const pizzas: PizzaItem[] = [
 
     image: MezzalunaPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -227,8 +227,8 @@ export const pizzas: PizzaItem[] = [
 
     image: SuperPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
@@ -257,8 +257,8 @@ export const pizzas: PizzaItem[] = [
 
     image: VejeteryanPizza,
 
-    price: 150,
-    pricedelivery: 170,
+    price: 170,
+    pricedelivery: 190,
 
     rating: 4.9,
 
